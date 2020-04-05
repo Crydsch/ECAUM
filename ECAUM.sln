@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECAUM.UpdateManager", "ECAUM.UpdateManager\ECAUM.UpdateManager.csproj", "{81300F1C-6917-448B-808A-1AFC7ABCF515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECAUM.Common", "ECAUM.Common\ECAUM.Common.csproj", "{D581C49C-EF41-4B57-917D-24283EC42DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECAUM.TestApp", "ECAUM.TestApp\ECAUM.TestApp.csproj", "{F2DF8F7E-863A-49FD-A000-B32CAB3428E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECAUM.Tests", "ECAUM.Tests\ECAUM.Tests.csproj", "{2AA34D8A-A1D9-4F04-87CA-CDC30042C7A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECAUM.Updater", "ECAUM.Updater\ECAUM.Updater.csproj", "{39E7F10D-B779-4F2C-8DA6-38FBBA5070E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECAUM.PatchGenerator", "ECAUM.PatchGenerator\ECAUM.PatchGenerator.csproj", "{A194FD8C-473C-4FCA-94E4-253D09FFD8E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECAUM.DemoApp", "ECAUM.DemoApp\ECAUM.DemoApp.csproj", "{701282F8-5E29-463E-BA5F-CFF07AA28860}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81300F1C-6917-448B-808A-1AFC7ABCF515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81300F1C-6917-448B-808A-1AFC7ABCF515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81300F1C-6917-448B-808A-1AFC7ABCF515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81300F1C-6917-448B-808A-1AFC7ABCF515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D581C49C-EF41-4B57-917D-24283EC42DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D581C49C-EF41-4B57-917D-24283EC42DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D581C49C-EF41-4B57-917D-24283EC42DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D581C49C-EF41-4B57-917D-24283EC42DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DF8F7E-863A-49FD-A000-B32CAB3428E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DF8F7E-863A-49FD-A000-B32CAB3428E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DF8F7E-863A-49FD-A000-B32CAB3428E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DF8F7E-863A-49FD-A000-B32CAB3428E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA34D8A-A1D9-4F04-87CA-CDC30042C7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA34D8A-A1D9-4F04-87CA-CDC30042C7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA34D8A-A1D9-4F04-87CA-CDC30042C7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA34D8A-A1D9-4F04-87CA-CDC30042C7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39E7F10D-B779-4F2C-8DA6-38FBBA5070E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E7F10D-B779-4F2C-8DA6-38FBBA5070E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E7F10D-B779-4F2C-8DA6-38FBBA5070E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E7F10D-B779-4F2C-8DA6-38FBBA5070E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A194FD8C-473C-4FCA-94E4-253D09FFD8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A194FD8C-473C-4FCA-94E4-253D09FFD8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A194FD8C-473C-4FCA-94E4-253D09FFD8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A194FD8C-473C-4FCA-94E4-253D09FFD8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701282F8-5E29-463E-BA5F-CFF07AA28860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701282F8-5E29-463E-BA5F-CFF07AA28860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701282F8-5E29-463E-BA5F-CFF07AA28860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701282F8-5E29-463E-BA5F-CFF07AA28860}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64CC2412-D0FA-46AC-BD28-48F4046C28B7}
+	EndGlobalSection
+EndGlobal
